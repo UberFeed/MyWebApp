@@ -1,0 +1,27 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net5.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Content Remove="wwwroot\css\style.css" />
+    <Content Remove="wwwroot\css\style.css.map" />
+    <Content Remove="wwwroot\img\back.jpg" />
+    <Content Remove="wwwroot\img\left-uniq.png" />
+    <Content Remove="wwwroot\img\middle-uniq.png" />
+    <Content Remove="wwwroot\img\right-uniq.png" />
+    <Content Remove="wwwroot\img\seperator-uniq.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="wwwroot\css\style.css" />
+    <None Include="wwwroot\css\style.css.map" />
+    <None Include="wwwroot\img\back.jpg" />
+    <None Include="wwwroot\img\left-uniq.png" />
+    <None Include="wwwroot\img\middle-uniq.png" />
+    <None Include="wwwroot\img\right-uniq.png" />
+    <None Include="wwwroot\img\seperator-uniq.png" />
+  </ItemGroup>
+
+</Project>
